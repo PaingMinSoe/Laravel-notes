@@ -1,0 +1,13 @@
+git init - initialize current directory as Git repository.
+git status - show changes in files in current directory
+git add [filename] - add a file in a next commit, "." to add all files.
+git commit -m "[message]" - commit the changes in file with descriptive message for changes.
+git reset [filename] - view the changes in local directory without actually affecting the files.
+git branch - list the existing branches
+git branch [branchname] - create new branch
+git checkout [branchname] -switch to another existing branch to operate on
+git checkout -b [branchname] - create new branch and switch to that newly created branch
+git checkout -D [branchname] - delete the specified branch 
+git log - show the commits made in the repository
+git clone [url] - create a copy of a targeted repository via URL link
+git push - upload the commits made to the repository
